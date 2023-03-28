@@ -6,6 +6,10 @@
       http-equiv="X-UA-Compatible"
       content="IE=edge"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Noto+Sans+JP:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <meta
       name="viewport"
       content="width=1223,height=791, initial-scale=1.0"
@@ -17,6 +21,7 @@
     <title>Document</title>
   </head>
   <body>
+    <span id="test">TEst</span>
     <div id="main-window">
       <div id="header">
         <img
@@ -25,13 +30,45 @@
           alt="Bot icon"
         />
         <div id="bot">
-          <p id="bot-name"><b>New AIBot</b></p>
+          <p id="bot-name">New AIBot</p>
           <p id="activity">Active now</p>
         </div>
         <div id="language">Language</div>
       </div>
-      <div id="messages-window"></div>
-      <div id="input"></div>
+      <div id="messages-window">
+        <div class="clear-place"></div>
+        <div
+          class="message"
+          id="message2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo amet
+          doloribus repudiandae dolorum odit soluta, saepe in ad recusandae nam,
+          exercitationem consequuntur suscipit voluptatum necessitatibus quia
+          ullam, et accusamus voluptatem!
+        </div>
+        <div
+          class="message"
+          id="message2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo amet
+          doloribus repudiandae dolorum odit soluta, saepe in ad recusandae nam,
+          exercitationem consequuntur suscipit voluptatum necessitatibus quia
+          ullam, et accusamus voluptatem!
+        </div>
+      </div>
+      <div id="input">
+        <input
+          type="text"
+          placeholder="Your question"
+        />
+        <div id="div-img">
+          <img
+            src="img/arrow.png"
+            alt="here"
+            id="input-img"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
