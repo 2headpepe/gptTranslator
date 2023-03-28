@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    100% 121.87% at 100% 100%,
+    #d0b9d9 0%,
+    #d3dbf2 63.85%,
+    #e8e0f1 100%
+  );
+}
+#main-window {
+  height: 635px;
+  width: 707px;
+  box-sizing: border-box;
+
+  position: absolute;
+
+  border: 1px solid #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+#header {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  height: 78px;
+
+  border-radius: 50px 50px 0 0;
+  background: #e8e0f1;
+  border-bottom: 1px solid #ffffff;
+}
+#bot-icon {
+  width: 5%;
+  margin-top: 23px;
+  margin-left: 43px;
+  float: left;
+}
+#bot {
+  margin-top: 20px;
+  margin-left: 32px;
+  float: left;
+}
+#bot-name {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+#activity {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+#language {
+  float: right;
+  margin-top: 28px;
+  margin-right: 74px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+#messages-window {
+  margin-top: 78px;
+  /* height: 514px; */
+}
+#input {
+  position: absolute;
+  top: 561px;
+  height: 57px;
+  left: 0;
+  height: 72px;
+  width: 100%;
+  padding: auto;
+  background: radial-gradient(
+    100% 8116.22% at 0% 49.55%,
+    #d6dcf2 0%,
+    #e4d6f3 100%
+  );
+  border-radius: 0 0 50px 50px;
+  border-top: 1px solid #ffffff;
+}
