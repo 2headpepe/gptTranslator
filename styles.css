@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Noto+Sans+JP:wght@100&display=swap");
 
+@font-face {
+  font-family: gothamLight;
+  src: url(fonts/gothampro_light.ttf);
+}
+@font-face {
+  font-family: gothamBlack;
+  src: url(fonts/gothampro_medium.ttf);
+}
+
 *,
 *:before,
 *:after {
@@ -56,22 +65,23 @@ body {
   float: left;
 }
 #bot-name {
-  /* font-family: "gotham"; */
+  font-family: "gothamLight";
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
 }
 #activity {
-  /* font-family: "Roboto"; */
-  /* font-style: normal; */
+  font-family: "gothamBlack";
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 8px;
+  line-height: 8px;
 }
 #language {
+  font-family: "gothamLight";
+
   float: right;
   margin-top: 28px;
-  margin-right: 74px;
+  margin-right: 52px;
 
   /* font-family: "Roboto"; */
   /* font-style: normal; */
@@ -87,18 +97,20 @@ body {
 
 .message {
   width: 621px;
-  background: #ede8f3;
+  background: #edecf0;
   border-radius: 50px;
   margin-bottom: 29px;
   margin-left: 43px;
   text-align: center;
-  padding: 15px;
+  padding: 15px 25px;
 
   /* font-family: "Roboto"; */
   /* font-style: normal; */
-  font-weight: 400;
-  font-size: 1rem;
+  /* font-weight: 400; */
+  /* font-size: 1rem; */
   line-height: 21px;
+  font-family: "gothamLight";
+  font-size: 12px;
 }
 
 .clear-place {
@@ -133,10 +145,10 @@ input {
   border: #cad3f1 1px solid;
   background-color: unset;
 
-  /* font-family: "Roboto"; */
-  /* font-style: normal; */
+  font-family: "gothamLight";
+
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 14px;
   line-height: 23px;
   color: black;
 
@@ -160,14 +172,9 @@ input::placeholder {
   height: 20px;
   width: 20px;
   float: right;
-  margin: 26px;
+  margin-top: 28px;
+  margin-right: 52px
 }
 #div-img:hover {
   background-color: aqua;
-}
-
-#test {
-  height: 100px;
-  background-color: #d0b9d9;
-  font-family: "Noto Sans JP", sans-serif;
 }
