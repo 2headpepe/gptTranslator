@@ -35,7 +35,7 @@
     <title>ChatGPT</title>
   </head>
   <body>
-    <div id="main-window">
+    <div id="mainWindow">
       <div id="header">
         <img
           id="bot-icon"
@@ -48,40 +48,24 @@
         </div>
         <div id="language">Language</div>
       </div>
-      <div id="messages-window">
-        <div class="clear-place"></div>
-        <div
-          class="message"
-          id="message2"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo amet
-          doloribus repudiandae dolorum odit soluta, saepe in ad recusandae nam,
-          exercitationem consequuntur suscipit voluptatum necessitatibus quia
-          ullam, et accusamus voluptatem!
-        </div>
-        <div
-          class="message"
-          id="message2"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo amet
-          doloribus repudiandae dolorum odit soluta, saepe in ad recusandae nam,
-          exercitationem consequuntur suscipit voluptatum necessitatibus quia
-          ullam, et accusamus voluptatem!
-        </div>
+      <div id="messagesWrapper">
+        <div class="emptyPlace"></div>
       </div>
-      <div id="input">
+      <div id="inputWrapper">
         <input
+          id="inputQuestion"
           type="text"
           placeholder="Your question"
         />
-        <div id="div-img">
+        <div id="arrowImgWrapper">
           <img
             src="img/arrow.png"
             alt="here"
-            id="input-img"
+            id="arrowImg"
           />
         </div>
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>

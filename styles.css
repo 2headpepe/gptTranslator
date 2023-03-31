@@ -31,7 +31,7 @@ body {
     #e8e0f1 100%
   );
 }
-#main-window {
+#mainWindow {
   height: 635px;
   width: 707px;
   box-sizing: border-box;
@@ -89,7 +89,7 @@ body {
   font-size: 18px;
   line-height: 23px;
 }
-#messages-window {
+#messagesWrapper {
   margin-top: 78px;
   height: 483px;
   display: table;
@@ -103,22 +103,17 @@ body {
   margin-left: 43px;
   text-align: center;
   padding: 15px 25px;
-
-  /* font-family: "Roboto"; */
-  /* font-style: normal; */
-  /* font-weight: 400; */
-  /* font-size: 1rem; */
   line-height: 21px;
   font-family: "gothamLight";
   font-size: 12px;
 }
 
-.clear-place {
+.emptyPlace {
   height: 100%;
   display: table-row;
 }
 
-#input {
+#inputWrapper {
   position: absolute;
   top: 561px;
   height: 57px;
@@ -135,13 +130,13 @@ body {
   border-radius: 0 0 50px 50px;
   border-top: 1px solid #ffffff;
 }
-input {
-  width: 705px;
+#inputQuestion {
+  width: 600px;
   height: 72px;
   padding-left: 42px;
   border: 0;
-  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
-  border-radius: 0 0 50px 50px;
+  /* box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06); */
+  border-radius: 0 0 0 50px;
   border: #cad3f1 1px solid;
   background-color: unset;
 
@@ -168,13 +163,13 @@ input::placeholder {
   line-height: 23px;
   color: black;
 }
-#input-img {
+#arrowImg {
   height: 20px;
   width: 20px;
   float: right;
   margin-top: 28px;
   margin-right: 52px
 }
-#div-img:hover {
+/* #arrowImg:hover {
   background-color: aqua;
-}
+} */
